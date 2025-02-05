@@ -7,10 +7,10 @@ Sebagai seorang Data Engineer di Erdigma, tugas ini bertujuan untuk menggabungka
 - **Kolom yang diinginkan:**
   - `raw_date` = Tanggal
   - `amount` = Pengeluaran(IDR)
-  - `description` = '' (nilai kosong)
-  - `mp` = index 1 setelah split dengan `_`
-  - `ja_per_team` = index 0 setelah split dengan `_`
-  - `store` = index 2 setelah split dengan `_`
+  - `description` = '' (nilai null)
+  - `mp` = dari file name index 1
+  - `ja_per_team` = dari file name index 0
+  - `store` = dari file name index 2
 
 - **Sumber Data:**
   - Data berasal dari beberapa file CSV dengan format nama:
