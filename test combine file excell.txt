@@ -1,0 +1,19 @@
+file mentah
+https://drive.google.com/drive/folders/1V-6hhnIPgKGsfYSR3OvnfeO4mtHQPkxi?usp=sharing
+
+Bm Marketplace EDC_Shopee CPAS_Herbavitshop Official_22 Januari 2025
+0_1_2_3
+
+kolom yang diinginkan
+'raw_date', 'amount', 'description', 'mp', 'ja_per_team', 'store'
+
+ketentuan
+raw_date = Tanggal
+amount = Pengeluaran(IDR)
+description = '' (nilai null)
+mp = dari file name index 1
+ja_per_team = dari file name index 0
+store = dari file name index 2
+
+brief
+anggap kamu seorang data engineer di erdigma, kamu diminta untuk menggabungkan file excell yang ada di google drive menjadi 1 agar bisa diinput ke database. gunakan python untuk menggabungkan banyak file tersebut dengan ketentuan seperti diatas
